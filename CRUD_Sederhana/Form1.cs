@@ -47,7 +47,7 @@ namespace CRUD_Sederhana
                     DataTable dt = new DataTable();
                     da.Fill(dt);  //nyimpen
 
-                    dgvMahasiswa.AutoGenerateColumns = true;
+                    dgvMahasiswa.AutoGenerateColumns = true; //otomatis
                     dgvMahasiswa.DataSource = dt;
 
                     ClearFrom();
