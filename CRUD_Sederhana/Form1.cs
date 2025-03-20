@@ -149,7 +149,7 @@ namespace CRUD_Sederhana
         private void BtnRefresh(object sender, EventArgs e)
         {
             LoadData();
-            MessageBox.Show($"Jumlah Kolom: {dgvMahasiswa.ColumnCount}\nJumlah Baris: {dgvMahasiswa.RowCount}",
+            MessageBox.Show($"Jumlah Kolom: {dgvMahasiswa.ColumnCount}\nJumlah Baris: {dgvMahasiswa.RowCount}",  //nampilin kolom 
                 "Debugging DataGridView", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
