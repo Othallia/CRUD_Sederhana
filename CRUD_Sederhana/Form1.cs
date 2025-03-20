@@ -119,7 +119,7 @@ namespace CRUD_Sederhana
                             using (SqlCommand cmd = new SqlCommand(query, conn))
                             {
                                 cmd.Parameters.AddWithValue("@NIM", nim); //agar aman
-                                int rowsAffected = cmd.ExecuteNonQuery();
+                                int rowsAffected = cmd.ExecuteNonQuery(); //eksekusi
 
                                 if (rowsAffected > 0)
                                 {
