@@ -27,7 +27,7 @@ namespace CRUD_Sederhana
         private void ClearFrom()
         {
             textBox1.Clear(); //untuk nim
-            textBox2.Clear();
+            textBox2.Clear(); //untuk nama
             textBox3.Clear();
             textBox4.Clear();
             textBox5.Clear();
