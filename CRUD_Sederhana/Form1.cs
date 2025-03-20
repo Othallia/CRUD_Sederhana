@@ -121,7 +121,7 @@ namespace CRUD_Sederhana
                                 cmd.Parameters.AddWithValue("@NIM", nim); //agar aman
                                 int rowsAffected = cmd.ExecuteNonQuery(); //eksekusi
 
-                                if (rowsAffected > 0)
+                                if (rowsAffected > 0) //validasi
                                 {
                                     MessageBox.Show("Data berhasil di hapus!", "Sukses", MessageBoxButtons.OK, MessageBoxIcon.Information);
                                     LoadData();
