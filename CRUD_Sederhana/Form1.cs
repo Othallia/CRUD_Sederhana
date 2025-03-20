@@ -52,7 +52,7 @@ namespace CRUD_Sederhana
 
                     ClearFrom(); //hapus
                 }
-                catch (Exception ex)
+                catch (Exception ex) //benerin kesalahan
                 {
                     MessageBox.Show("Error: " + ex.Message, "Kesalahan", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
