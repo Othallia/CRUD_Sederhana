@@ -112,7 +112,7 @@ namespace CRUD_Sederhana
                     {
                         try
                         {
-                            string nim = dgvMahasiswa.SelectedRows[0].Cells["NIM"].Value.ToString();
+                            string nim = dgvMahasiswa.SelectedRows[0].Cells["NIM"].Value.ToString(); //ngambil nim
                             conn.Open();
                             string query = "DELETE FROM Mahasiswa WHERE NIM = @NIM";
 
