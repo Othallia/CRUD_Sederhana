@@ -28,7 +28,7 @@ namespace CRUD_Sederhana
         {
             textBox1.Clear(); //untuk nim
             textBox2.Clear(); //untuk nama
-            textBox3.Clear();
+            textBox3.Clear(); //untuk email
             textBox4.Clear();
             textBox5.Clear();
 
