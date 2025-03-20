@@ -89,7 +89,7 @@ namespace CRUD_Sederhana
                         }
                         else
                         {
-                            MessageBox.Show("Data tidak berhasil di tambahkan!", "Kesalahan", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            MessageBox.Show("Data tidak berhasil di tambahkan!", "Kesalahan", MessageBoxButtons.OK, MessageBoxIcon.Error); //ngasi tau kalo gagal
                         }
                     }
                 }
