@@ -80,7 +80,7 @@ namespace CRUD_Sederhana
                         cmd.Parameters.AddWithValue("@Telepon", textBox4.Text.Trim());        //{nambahin nilai}
                         cmd.Parameters.AddWithValue("@Alamat", textBox5.Text.Trim());        //{nambahin nilai}
 
-                        int rowsAffected = cmd.ExecuteNonQuery();
+                        int rowsAffected = cmd.ExecuteNonQuery(); //run
                         if (rowsAffected > 0)
                         {
                             MessageBox.Show("Data berhasil ditambahkan!", "Sukses", MessageBoxButtons.OK, MessageBoxIcon.Information);
