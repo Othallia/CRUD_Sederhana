@@ -105,7 +105,7 @@ namespace CRUD_Sederhana
         {
             if (dgvMahasiswa.SelectedRows.Count > 0) //meriksa data
             {
-                DialogResult confirm = MessageBox.Show("Yakin ingin menghapus data ini?", "Konfirmasi", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+                DialogResult confirm = MessageBox.Show("Yakin ingin menghapus data ini?", "Konfirmasi", MessageBoxButtons.YesNo, MessageBoxIcon.Question); //nampilin kofirmasi
                 if (confirm == DialogResult.Yes)
                 {
                     using (SqlConnection conn = new SqlConnection(ConnectionString))
