@@ -30,7 +30,7 @@ namespace CRUD_Sederhana
             textBox2.Clear(); //untuk nama
             textBox3.Clear(); //untuk email
             textBox4.Clear(); //untuk telepon
-            textBox5.Clear();
+            textBox5.Clear(); //untuk alamat
 
             label1.Focus();
         }
