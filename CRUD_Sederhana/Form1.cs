@@ -29,7 +29,7 @@ namespace CRUD_Sederhana
             textBox1.Clear(); //untuk nim
             textBox2.Clear(); //untuk nama
             textBox3.Clear(); //untuk email
-            textBox4.Clear();
+            textBox4.Clear(); //untuk telepon
             textBox5.Clear();
 
             label1.Focus();
