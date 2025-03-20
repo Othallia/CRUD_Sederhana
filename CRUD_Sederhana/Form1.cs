@@ -157,12 +157,12 @@ namespace CRUD_Sederhana
         {
             if (e.RowIndex >= 0) //ngecek
             {
-                DataGridViewRow row = dgvMahasiswa.Rows[e.RowIndex]; //milih baris
-                textBox1.Text = row.Cells[0].Value.ToString();
-                textBox2.Text = row.Cells[1].Value.ToString();
-                textBox3.Text = row.Cells[2].Value.ToString();
-                textBox4.Text = row.Cells[3].Value.ToString();
-                textBox5.Text = row.Cells[4].Value.ToString();
+                DataGridViewRow row = dgvMahasiswa.Rows[e.RowIndex];//milih baris
+                textBox1.Text = row.Cells[0].Value.ToString();    //nim
+                textBox2.Text = row.Cells[1].Value.ToString();   //nama
+                textBox3.Text = row.Cells[2].Value.ToString();  //email
+                textBox4.Text = row.Cells[3].Value.ToString(); //telepon
+                textBox5.Text = row.Cells[4].Value.ToString();//alamat
             }
         }
 
