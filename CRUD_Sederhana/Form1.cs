@@ -72,7 +72,7 @@ namespace CRUD_Sederhana
 
                     conn.Open();
                     string query = "INSERT INTO Mahasiswa (NIM, Nama, Email, Telepon, Alamat) VALUES (@NIM, @Nama, @Email, @Telepon, @Alamat)";
-                    using (SqlCommand cmd = new SqlCommand(query, conn))
+                    using (SqlCommand cmd = new SqlCommand(query, conn)) //bikin objek
                     {
                         cmd.Parameters.AddWithValue("@NIM", textBox1.Text.Trim());
                         cmd.Parameters.AddWithValue("@Nama", textBox2.Text.Trim());
