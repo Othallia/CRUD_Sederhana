@@ -129,7 +129,7 @@ namespace CRUD_Sederhana
                                 }
                                 else
                                 {
-                                    MessageBox.Show("Data tidak ditemukan atau gagal dihapus!", "Kesalahan", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                                    MessageBox.Show("Data tidak ditemukan atau gagal dihapus!", "Kesalahan", MessageBoxButtons.OK, MessageBoxIcon.Error); //jika ga berhasil diapus
                                 }
                             }
                         }
