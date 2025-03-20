@@ -155,7 +155,7 @@ namespace CRUD_Sederhana
 
         private void dgvMahasiswa_CellClick(object sender, DataGridViewCellEventArgs e)
         {
-            if (e.RowIndex >= 0)
+            if (e.RowIndex >= 0) //ngecek
             {
                 DataGridViewRow row = dgvMahasiswa.Rows[e.RowIndex];
                 textBox1.Text = row.Cells[0].Value.ToString();
