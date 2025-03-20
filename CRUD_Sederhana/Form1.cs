@@ -50,7 +50,7 @@ namespace CRUD_Sederhana
                     dgvMahasiswa.AutoGenerateColumns = true; //otomatis
                     dgvMahasiswa.DataSource = dt; //nampilin
 
-                    ClearFrom();
+                    ClearFrom(); //hapus
                 }
                 catch (Exception ex)
                 {
